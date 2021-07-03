@@ -53,8 +53,8 @@ Now we can deploy the compiled contract in this example to your account:
 
 Since this example deals with a fungible token that can have an "escrow" owner, let's go ahead and set up two account names for Alice and Bob. These two accounts will be sub-accounts of the NEAR account you logged in with.
 
-    near create_account alice.$ID --masterAccount $ID --initialBalance 1
-    near create_account bob.$ID --masterAccount $ID --initialBalance 1
+    near create-account alice.$ID --masterAccount $ID --initialBalance 1
+    near create-account bob.$ID --masterAccount $ID --initialBalance 1
 
 Create a token for an account and give it a total supply:
 
